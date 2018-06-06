@@ -25,7 +25,7 @@ ENV_DIR=${3:-}
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 echo "-----> Cloning nghttp2"
-git clone https://github.com/nghttp2/nghttp2.git --depth=1 2>&1 | indent
+git clone https://github.com/HypoFriend/nghttp2.git --depth=1 2>&1 | indent
 
 pushd nghttp2
 echo "-----> Configuring nghttp2"
